@@ -1,0 +1,5 @@
+TODO:
+- Change icon colors based on status (e.g. good wifi vs bad)
+- Click to hide time remaining on battery
+- Click to open processes
+- Click to hide/show wifi details 
