@@ -1,0 +1,54 @@
+[
+  {
+    "config_version": 2,
+    "id": "7af80002-1e00-4968-8dd2-f1d0235678e5",
+    "archive_prefix": "f2ab44-",
+    "repo_id": "446c18ebf98745c139ea3cc84b75a555cb8d9b91b3358c39c1324f9e6c105a12",
+    "repo": {
+      "type": "Local",
+      "path": "borg-desktop-seth",
+      "mount_path": "/home/seth/NAS/Backups",
+      "uri": "file:///home/seth/NAS/Backups/borg-desktop-seth",
+      "drive_name": null,
+      "mount_name": "Backups",
+      "volume_uuid": null,
+      "removable": false,
+      "icon": ". GThemedIcon folder-remote folder folder-remote-symbolic folder-symbolic",
+      "icon_symbolic": ". GThemedIcon folder-remote-symbolic folder-symbolic folder-remote folder",
+      "settings": {
+        "command_line_args": []
+      }
+    },
+    "encrypted": true,
+    "encryption_mode": "repokey-blake2",
+    "include": [
+      ""
+    ],
+    "exclude": [
+      {
+        "PathPrefix": ".cache"
+      },
+      {
+        "RegularExpression": "/\\.var/app/[^/]+/cache/"
+      }
+    ],
+    "schedule": {
+      "enabled": false,
+      "frequency": {
+        "Daily": {
+          "preferred_time": "17:00:00"
+        }
+      }
+    },
+    "prune": {
+      "enabled": false,
+      "keep": {
+        "hourly": 48,
+        "daily": 14,
+        "weekly": 4,
+        "monthly": 12,
+        "yearly": 10
+      }
+    }
+  }
+]

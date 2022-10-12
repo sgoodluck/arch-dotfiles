@@ -1,0 +1,286 @@
+{
+  "510602a8-15ef-4ac2-999d-e06de7cd6cb5": {
+    "run": [
+      {
+        "end": "2022-10-02T15:51:26.537725512-04:00",
+        "outcome": {
+          "Completed": {
+            "stats": {
+              "archive": {
+                "duration": 13.64282,
+                "id": "41d2d61e8bdcecbd83677bc9810bc2d1bac3fadf64d0aa4f5ebf79ce6049b129",
+                "name": "63e00c-28677cba",
+                "stats": {
+                  "compressed_size": 799390704,
+                  "deduplicated_size": 788081508,
+                  "nfiles": 17301,
+                  "original_size": 1081796580
+                }
+              }
+            }
+          }
+        },
+        "messages": [],
+        "include": [
+          ""
+        ],
+        "exclude": [
+          {
+            "PathPrefix": ".cache"
+          },
+          {
+            "PathPrefix": "Disks"
+          },
+          {
+            "PathPrefix": "Downloads"
+          },
+          {
+            "PathPrefix": "NAS"
+          },
+          {
+            "PathPrefix": "backup-desktop-seth"
+          },
+          {
+            "RegularExpression": "/\\.var/app/[^/]+/cache/"
+          }
+        ]
+      }
+    ],
+    "running": null,
+    "last_completed": {
+      "end": "2022-10-02T15:51:26.537725512-04:00",
+      "outcome": {
+        "Completed": {
+          "stats": {
+            "archive": {
+              "duration": 13.64282,
+              "id": "41d2d61e8bdcecbd83677bc9810bc2d1bac3fadf64d0aa4f5ebf79ce6049b129",
+              "name": "63e00c-28677cba",
+              "stats": {
+                "compressed_size": 799390704,
+                "deduplicated_size": 788081508,
+                "nfiles": 17301,
+                "original_size": 1081796580
+              }
+            }
+          }
+        }
+      },
+      "messages": [],
+      "include": [
+        ""
+      ],
+      "exclude": [
+        {
+          "PathPrefix": ".cache"
+        },
+        {
+          "PathPrefix": "Disks"
+        },
+        {
+          "PathPrefix": "Downloads"
+        },
+        {
+          "PathPrefix": "NAS"
+        },
+        {
+          "PathPrefix": "backup-desktop-seth"
+        },
+        {
+          "RegularExpression": "/\\.var/app/[^/]+/cache/"
+        }
+      ]
+    }
+  },
+  "783dff61-b6de-42e3-a87f-2ae08e965c26": {
+    "run": [
+      {
+        "end": "2022-10-02T15:49:54.377305899-04:00",
+        "outcome": {
+          "Aborted": "User"
+        },
+        "messages": [
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "borg.archiver",
+              "message": "/home/seth/Disks/Storage/lost+found: dir_open: [Errno 13] Permission denied: 'lost+found'",
+              "msgid": "Undefined"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "borg.archiver",
+              "message": "/home/seth/Disks/Storage/.bash_history: open: [Errno 13] Permission denied: '.bash_history'",
+              "msgid": "Undefined"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "borg.archiver",
+              "message": "/home/seth/Disks/Storage/.histfile: open: [Errno 13] Permission denied: '.histfile'",
+              "msgid": "Undefined"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "borg.archiver",
+              "message": "/home/seth/Disks/Storage/.lesshst: open: [Errno 13] Permission denied: '.lesshst'",
+              "msgid": "Undefined"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "borg.archiver",
+              "message": "/home/seth/Disks/Storage/.psql_history: open: [Errno 13] Permission denied: '.psql_history'",
+              "msgid": "Undefined"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "borg.archiver",
+              "message": "/home/seth/Disks/Storage/.python_history: open: [Errno 13] Permission denied: '.python_history'",
+              "msgid": "Undefined"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "borg.archiver",
+              "message": "/home/seth/Disks/Storage/.wakatime.bdb: open: [Errno 13] Permission denied: '.wakatime.bdb'",
+              "msgid": "Undefined"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "borg.archiver",
+              "message": "/home/seth/Disks/Storage/.zsh_history: open: [Errno 13] Permission denied: '.zsh_history'",
+              "msgid": "Undefined"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "borg.archiver",
+              "message": "/home/seth/Disks/Storage/Delta0.png: open: [Errno 13] Permission denied: 'Delta0.png'",
+              "msgid": "Undefined"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "borg.archiver",
+              "message": "/home/seth/Disks/Storage/Delta100.png: open: [Errno 13] Permission denied: 'Delta100.png'",
+              "msgid": "Undefined"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "borg.archiver",
+              "message": "/home/seth/Disks/Storage/Delta50.png: open: [Errno 13] Permission denied: 'Delta50.png'",
+              "msgid": "Undefined"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "borg.archiver",
+              "message": "/home/seth/Disks/Storage/Desk2.jpeg: open: [Errno 13] Permission denied: 'Desk2.jpeg'",
+              "msgid": "Undefined"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "borg.archiver",
+              "message": "/home/seth/Disks/Storage/ZacPhotos.zip: read: [Errno 2] No such file or directory: '/home/seth/backup-desktop-seth/data/0'",
+              "msgid": "Undefined"
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "ERROR",
+              "name": "borg.archiver",
+              "message": "Got Ctrl-C / SIGINT.",
+              "msgid": "Undefined"
+            }
+          },
+          {
+            "UnparsableErr": "Exception ignored in: <function Repository.__del__ at 0x7f318f203250>\n"
+          },
+          {
+            "UnparsableErr": "Traceback (most recent call last):\n"
+          },
+          {
+            "UnparsableErr": "  File \"/usr/lib/python3.10/site-packages/borg/repository.py\", line 189, in __del__\n"
+          },
+          {
+            "UnparsableErr": "    self.close()\n"
+          },
+          {
+            "UnparsableErr": "  File \"/usr/lib/python3.10/site-packages/borg/repository.py\", line 478, in close\n"
+          },
+          {
+            "UnparsableErr": "    self.lock.release()\n"
+          },
+          {
+            "UnparsableErr": "  File \"/usr/lib/python3.10/site-packages/borg/locking.py\", line 417, in release\n"
+          },
+          {
+            "UnparsableErr": "    self._roster.modify(EXCLUSIVE, REMOVE)\n"
+          },
+          {
+            "UnparsableErr": "  File \"/usr/lib/python3.10/site-packages/borg/locking.py\", line 316, in modify\n"
+          },
+          {
+            "UnparsableErr": "    elements.remove(self.id)\n"
+          },
+          {
+            "UnparsableErr": "KeyError: ('desktop.localdomain@48710648422378', 3745218, 0)\n"
+          },
+          {
+            "ParsedErr": {
+              "levelname": "ERROR",
+              "name": "borg.archiver",
+              "message": "Local Exception",
+              "msgid": {
+                "Other": "Exception"
+              }
+            }
+          },
+          {
+            "ParsedErr": {
+              "levelname": "ERROR",
+              "name": "borg.archiver",
+              "message": "Traceback (most recent call last):\n  File \"/usr/lib/python3.10/site-packages/borg/archiver.py\", line 5159, in main\n    exit_code = archiver.run(args)\n  File \"/usr/lib/python3.10/site-packages/borg/archiver.py\", line 5090, in run\n    return set_ec(func(args))\n  File \"/usr/lib/python3.10/site-packages/borg/archiver.py\", line 168, in wrapper\n    with repository:\n  File \"/usr/lib/python3.10/site-packages/borg/repository.py\", line 214, in __exit__\n    self.close()\n  File \"/usr/lib/python3.10/site-packages/borg/repository.py\", line 478, in close\n    self.lock.release()\n  File \"/usr/lib/python3.10/site-packages/borg/locking.py\", line 417, in release\n    self._roster.modify(EXCLUSIVE, REMOVE)\n  File \"/usr/lib/python3.10/site-packages/borg/locking.py\", line 316, in modify\n    elements.remove(self.id)\nKeyError: ('desktop.localdomain@48710648422378', 3745218, 0)\n\nPlatform: Linux desktop 5.19.12-arch1-1 #1 SMP PREEMPT_DYNAMIC Wed, 28 Sep 2022 13:21:25 +0000 x86_64\nLinux: Unknown Linux  \nBorg: 1.2.2  Python: CPython 3.10.7 msgpack: 1.0.4 fuse: llfuse 1.4.2 [pyfuse3,llfuse]\nPID: 3745218  CWD: /home/seth\nsys.argv: ['/usr/bin/borg', 'create', '--rsh', 'ssh -o BatchMode=yes -o StrictHostKeyChecking=accept-new', '--progress', '--json', '--compression=zstd', '--log-json', '--exclude=pp:/home/seth/.cache', '--exclude=pp:/home/seth/.mnt/borg', '--exclude=pp:/home/seth/Downloads', '--exclude=re:/\\\\.var/app/[^/]+/cache/', '--', '/home/seth/backup-desktop-seth::713f4f-ab51045d', '/home/seth/']\nSSH_ORIGINAL_COMMAND: None\n",
+              "msgid": "Undefined"
+            }
+          }
+        ],
+        "include": [
+          ""
+        ],
+        "exclude": [
+          {
+            "PathPrefix": ".cache"
+          },
+          {
+            "PathPrefix": "Downloads"
+          },
+          {
+            "RegularExpression": "/\\.var/app/[^/]+/cache/"
+          }
+        ]
+      }
+    ],
+    "running": null,
+    "last_completed": null
+  }
+}

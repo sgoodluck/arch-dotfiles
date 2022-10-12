@@ -1,0 +1,40 @@
+[2022-10-12 12:24:01.123] [sharedprocess] [info] Starting worker process with pid 776801 (type: fileWatcher, window: 1).
+[2022-10-12 12:24:13.230] [sharedprocess] [info] Getting Manifest... eamodio.gitlens
+[2022-10-12 12:24:13.343] [sharedprocess] [info] Installing extension: eamodio.gitlens
+[2022-10-12 12:24:14.788] [sharedprocess] [info] Downloaded extension: eamodio.gitlens /home/seth/.config/Code - OSS/CachedExtensionVSIXs/eamodio.gitlens-12.2.2-universal
+[2022-10-12 12:24:15.015] [sharedprocess] [info] Extracted extension to /home/seth/.vscode-oss/extensions/.b078986e-e8b2-46da-b129-9e6557b1ae78: eamodio.gitlens
+[2022-10-12 12:24:15.023] [sharedprocess] [info] Renamed to /home/seth/.vscode-oss/extensions/eamodio.gitlens-12.2.2-universal
+[2022-10-12 12:24:15.026] [sharedprocess] [info] Extracting completed. eamodio.gitlens
+[2022-10-12 12:24:15.032] [sharedprocess] [info] Extension installed successfully: eamodio.gitlens
+[2022-10-12 12:24:45.482] [sharedprocess] [info] Worker process with pid 776801 terminated normally (type: fileWatcher, window: 1).
+[2022-10-12 12:24:46.501] [sharedprocess] [info] Starting worker process with pid 777839 (type: fileWatcher, window: 1).
+[2022-10-12 12:25:50.073] [sharedprocess] [info] Getting Manifest... asvetliakov.vscode-neovim
+[2022-10-12 12:25:50.169] [sharedprocess] [info] Installing extension: asvetliakov.vscode-neovim
+[2022-10-12 12:25:51.293] [sharedprocess] [info] Downloaded extension: asvetliakov.vscode-neovim /home/seth/.config/Code - OSS/CachedExtensionVSIXs/asvetliakov.vscode-neovim-0.0.89-universal
+[2022-10-12 12:25:51.357] [sharedprocess] [info] Extracted extension to /home/seth/.vscode-oss/extensions/.2c90b213-60b9-417a-8359-8016765bd914: asvetliakov.vscode-neovim
+[2022-10-12 12:25:51.361] [sharedprocess] [info] Renamed to /home/seth/.vscode-oss/extensions/asvetliakov.vscode-neovim-0.0.89-universal
+[2022-10-12 12:25:51.362] [sharedprocess] [info] Extracting completed. asvetliakov.vscode-neovim
+[2022-10-12 12:25:51.363] [sharedprocess] [info] Extension installed successfully: asvetliakov.vscode-neovim
+[2022-10-12 12:26:30.478] [sharedprocess] [info] Getting Manifest... equinusocio.vsc-material-theme-icons
+[2022-10-12 12:26:30.559] [sharedprocess] [info] Installing extension: equinusocio.vsc-material-theme-icons
+[2022-10-12 12:26:31.365] [sharedprocess] [info] Getting Manifest... equinusocio.vsc-material-theme
+[2022-10-12 12:26:31.432] [sharedprocess] [info] Downloaded extension: equinusocio.vsc-material-theme-icons /home/seth/.config/Code - OSS/CachedExtensionVSIXs/equinusocio.vsc-material-theme-icons-2.4.0-universal
+[2022-10-12 12:26:31.456] [sharedprocess] [info] Installing extension: equinusocio.vsc-material-theme
+[2022-10-12 12:26:31.640] [sharedprocess] [info] Getting Manifest... equinusocio.vsc-community-material-theme
+[2022-10-12 12:26:31.902] [sharedprocess] [info] Getting Manifest... equinusocio.vsc-material-theme-icons
+[2022-10-12 12:26:32.023] [sharedprocess] [info] Installing extension: equinusocio.vsc-community-material-theme equinusocio.vsc-material-theme
+[2022-10-12 12:26:32.023] [sharedprocess] [info] Waiting for already requested installing extension equinusocio.vsc-material-theme-icons equinusocio.vsc-material-theme
+[2022-10-12 12:26:32.420] [sharedprocess] [info] Downloaded extension: equinusocio.vsc-community-material-theme /home/seth/.config/Code - OSS/CachedExtensionVSIXs/equinusocio.vsc-community-material-theme-1.4.4-universal
+[2022-10-12 12:26:32.433] [sharedprocess] [info] Extracted extension to /home/seth/.vscode-oss/extensions/.581f00f6-0d5b-4e96-8b78-5585cffcb24b: equinusocio.vsc-community-material-theme
+[2022-10-12 12:26:32.435] [sharedprocess] [info] Renamed to /home/seth/.vscode-oss/extensions/equinusocio.vsc-community-material-theme-1.4.4-universal
+[2022-10-12 12:26:32.436] [sharedprocess] [info] Extracting completed. equinusocio.vsc-community-material-theme
+[2022-10-12 12:26:32.783] [sharedprocess] [info] Downloaded extension: equinusocio.vsc-material-theme /home/seth/.config/Code - OSS/CachedExtensionVSIXs/equinusocio.vsc-material-theme-33.5.0-universal
+[2022-10-12 12:26:32.832] [sharedprocess] [info] Extracted extension to /home/seth/.vscode-oss/extensions/.3244f589-3692-4001-8b49-cd56c5b90f2c: equinusocio.vsc-material-theme
+[2022-10-12 12:26:32.835] [sharedprocess] [info] Renamed to /home/seth/.vscode-oss/extensions/equinusocio.vsc-material-theme-33.5.0-universal
+[2022-10-12 12:26:32.836] [sharedprocess] [info] Extracting completed. equinusocio.vsc-material-theme
+[2022-10-12 12:26:33.168] [sharedprocess] [info] Extracted extension to /home/seth/.vscode-oss/extensions/.3287691a-f07d-4b06-8a0e-5405ce928953: equinusocio.vsc-material-theme-icons
+[2022-10-12 12:26:33.171] [sharedprocess] [info] Renamed to /home/seth/.vscode-oss/extensions/equinusocio.vsc-material-theme-icons-2.4.0-universal
+[2022-10-12 12:26:33.172] [sharedprocess] [info] Extracting completed. equinusocio.vsc-material-theme-icons
+[2022-10-12 12:26:33.173] [sharedprocess] [info] Extension installed successfully: equinusocio.vsc-material-theme-icons
+[2022-10-12 12:26:33.173] [sharedprocess] [info] Extension installed successfully: equinusocio.vsc-community-material-theme
+[2022-10-12 12:26:33.174] [sharedprocess] [info] Extension installed successfully: equinusocio.vsc-material-theme
