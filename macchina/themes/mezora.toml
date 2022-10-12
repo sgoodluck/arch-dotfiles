@@ -1,0 +1,41 @@
+# mezora theme - sauce for macchina cli
+
+separator="\uf303"
+separator_color="blue"
+key_color="blue"
+prefer_small_ascii = true
+
+[palette]
+type="Dark"
+visible=true
+glyph=" \u2b24 "
+
+[box]
+title=" hello world "
+border="double"
+visible=true
+
+[bar]
+glyph="\u25ae "
+hide_delimiters=true
+visible=true
+
+[randomize]
+key_color=false
+separator_color=false
+
+[custom_ascii]
+color="blue"
+path="~/.config/macchina/themes/ascii-arch.txt"
+
+[keys]
+host="\uf7db host"
+kernel="\uf7d0 kernel"
+distro="\uf303 distro"
+packages="\uf01c packages"
+terminal="\ue22b terminal"
+shell="\ue795 shell"
+cpu="\uf2db cpu"
+cpu_load="\ue3bf cpu"
+memory="\uf85a memory"
+battery="\uf581 battery"
