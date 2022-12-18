@@ -1,9 +1,0 @@
-[Trace 16:27:13.924] VsCodeClientWorkspace: TextDocument.onDidOpen: file:///home/seth/Projects/impact-management-api/README.md
-[Trace 16:27:13.924] VsCodeClientWorkspace: TextDocument.onDidChanceContent: file:///home/seth/Projects/impact-management-api/README.md
-[Trace 16:27:13.925] Server: connection.languages.diagnostics.on: file:///home/seth/Projects/impact-management-api/README.md
-[Trace 16:27:13.927] Server: connection.languages.diagnostics.on: file:///home/seth/Projects/impact-management-api/README.md
-[Trace 16:27:13.964] DocumentSymbolProvider: provideDocumentSymbols — file:///home/seth/Projects/impact-management-api/README.md 1
-[Debug 16:27:13.964] LinkProvider: compute - file:///home/seth/Projects/impact-management-api/README.md
-[Debug 16:27:14.054] TableOfContentsProvider: create - file:///home/seth/Projects/impact-management-api/README.md
-[Debug 16:27:14.671] MdFoldingProvider: provideFoldingRanges — file:///home/seth/Projects/impact-management-api/README.md 1
-[Trace 16:27:16.034] Server: connection.languages.diagnostics.on: file:///home/seth/Projects/impact-management-api/README.md

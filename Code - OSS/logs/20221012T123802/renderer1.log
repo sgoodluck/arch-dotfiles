@@ -1,2 +1,0 @@
-[2022-10-12 12:38:04.326] [renderer1] [info] [eamodio.gitlens]: Command `gitlens.copyAutolinkUrl` appears multiple times in the `commands` section.
-[2022-10-12 12:38:15.443] [renderer1] [error] Error while registering log channel file:///home/seth/.config/Code%20-%20OSS/logs/20221012T123802/userDataSync.log Timed out while waiting for file to be created
