@@ -5,7 +5,8 @@ vim.cmd [[packadd packer.nvim]]
 return require('packer').startup(function(use)
   -- Packer can manage itself
   use 'wbthomason/packer.nvim'
-
+  
+  -- Make file finding less annoying
   use {
 	  'nvim-telescope/telescope.nvim', tag = '0.1.0',
 	  -- or                            , branch = '0.1.x',
@@ -15,20 +16,26 @@ return require('packer').startup(function(use)
 
   use ('nvim-telescope/telescope-project.nvim')
 
-  use({
-	  'rose-pine/neovim',
-	  as = 'rose-pine',
-	  config = function()
-		  vim.cmd('colorscheme rose-pine')
-	  end
-  })
+  -- Make the colors prettier
+  use {
+      'lalitmee/cobalt2.nvim',
+      requires = "tjdevries/colorbuddy.nvim",
+  }
 
+  -- Sets up for parsing and highlighting
   use('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
   use('nvim-treesitter/playground')
+
+  -- Quick file context switching 
   use('ThePrimeagen/harpoon')
+
+  -- Really powerful undo functionality 
   use('mbbill/undotree')
+
+  -- The best git client for vim 
   use('tpope/vim-fugitive')
 
+  -- Sets up language server protocols for language use
   use {
 	  'VonHeikemen/lsp-zero.nvim',
 	  requires = {
@@ -50,5 +57,28 @@ return require('packer').startup(function(use)
 		  {'rafamadriz/friendly-snippets'},
 	  }
   }
+
+  -- Debugging Stuff 
+  use('mfussenegger/nvim-dap')
+  use('rcarriga/nvim-dap-ui')
+  use('theHamsta/nvim-dap-virtual-text')
+  use('nvim-telescope/telescope-dap.nvim')
+
+  -- Better status line
+  use {
+      'nvim-lualine/lualine.nvim',
+      requires = { 'kyazdani42/nvim-web-devicons', opt = true }
+  }
+
+  -- Surround 
+  use({
+    "kylechui/nvim-surround",
+    tag = "*", -- Use for stability; omit to use `main` branch for the latest features
+    config = function()
+        require("nvim-surround").setup({
+            -- Configuration here, or leave empty to use defaults
+        })
+    end
+})
 
 end)
